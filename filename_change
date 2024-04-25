@@ -1,0 +1,10 @@
+import os
+
+def rename_file():
+
+    file_name = input("Filename: ")
+    renamed_file_name = input("New filename: ")
+
+    os.rename(file_name, renamed_file_name)
+
+rename_file()
